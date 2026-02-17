@@ -23,13 +23,27 @@ An llm tuning project. A Llama 3.2 model is tuned using an AI-Generated dataset 
 | Extensions | Google Colab | Used to access T4 GPU for training|
 
 # 📁 Folder Structure
-Lorem ipsum dolor sit amet
+````
+🤖 LLM_Tuning
+├── 📁 Adapters/professional_Persona_Lora/               # Contains LoRA adapter 
+
+├── 📁 data/                 # Dataset(s) and data resources.
+
+├── 📁 notebooks/                 # Jupyter notebooks. Contains project code.
+
+├── 📄 Stress testing output.txt      # Contains the outputs for the stress testing prompts
+
+├── 📄 readme.md      # Readme
+
+├── 📄 License      # License     
+````
 
 # 🚀 How to test it yourself
-Lorem ipsum dolor sit amet
+The project was designed around using google Colab's VS code extension, so using google Colab or its VS Code extension will lead to the smoothest experience. If you want to run the notebooks as is without further modifications, use google Colab and be sure to place the datafile where the code expects it to be. You don't absolutely have to, but if you do change where your data is, you will need to modify the data loading paths in the code. Running the notebook to the end will also save the adapter head to the user's google drive.
 
 # 🔗 Links
 Lorem ipsum dolor sit amet
 
 # 📝 Notes
-Lorem ipsum dolor sit amet
+Commercial LLMs were used in this project for technical assistance and educational reasons.
+Created by [Hamza Darwish](https://github.com/hamzawasim835) under the auspices of [VeriLabs](https://github.com/VeriLabs-Team).
