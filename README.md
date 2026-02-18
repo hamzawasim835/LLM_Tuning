@@ -46,4 +46,4 @@ Lorem ipsum dolor sit amet
 
 # 📝 Notes
 Commercial LLMs were used in this project for technical assistance and educational reasons.
-Created by [Hamza Darwish](https://github.com/hamzawasim835) under the auspices of [VeriLabs](https://github.com/VeriLabs-Team).
+Created by [Hamza Darwish](https://github.com/hamzawasim835).
