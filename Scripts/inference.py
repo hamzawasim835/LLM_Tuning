@@ -36,4 +36,4 @@ while (True):
     question = input("How can I help you today(or type quit to exit the chat): ")
     if (question.lower() == "quit"):
         break
-    print(ask_professional(question), flush= True)
+    ask_professional(question)
