@@ -1,5 +1,5 @@
 # 🤖 LLM_Tuning
-An llm tuning project. A Llama 3.2 model is tuned using an AI-Generated dataset to respond politely, professionally, but firmly to an angry and/or frustrated and/or unreasonable client.
+An llm tuning project. A Llama 3.2 model is tuned using a custom AI-Generated dataset to respond politely, professionally, but firmly to an angry and/or frustrated and/or unreasonable client.
 
 # 📋 About the project
 **Model:** Tuned Llama 3.2 3B-Instruct LLM.  
@@ -31,6 +31,8 @@ An llm tuning project. A Llama 3.2 model is tuned using an AI-Generated dataset 
 
 ├── 📁 notebooks/                 # Jupyter notebooks. Contains project code.
 
+├── 📁 scripts/                 # Python Scripts, contains the code for the inference pipeline, designed around google Colab.
+
 ├── 📄 Stress testing output.txt      # Contains the outputs for the stress testing prompts
 
 ├── 📄 readme.md      # Readme
@@ -39,7 +41,8 @@ An llm tuning project. A Llama 3.2 model is tuned using an AI-Generated dataset 
 ````
 
 # 🚀 How to test it yourself
-The project was designed around using google Colab's VS code extension, so using google Colab or its VS Code extension will lead to the smoothest experience. If you want to run the notebooks as is without further modifications, use google Colab and be sure to place the datafile where the code expects it to be. You don't absolutely have to, but if you do change where your data is, you will need to modify the data loading paths in the code. Running the notebook to the end will also save the adapter head to the user's google drive.
+The project was designed around using google Colab's VS code extension, so using google Colab or its VS Code extension will lead to the smoothest experience. If you want to run the notebooks as is without further modifications, use google Colab and be sure to place the dataset file where the code expects it to be. You don't absolutely have to, but if you do change where your dataset file is, you will need to modify the data loading paths in the code. Running the code.ipynb notebook to the end will also save the adapter head to the user's google drive. 
+If you want to skip straight ahead into the inference pipeline, run the infererence.ipynb notebooks to its end, and be sure that the relevant files (namely the inference.py script) are where the code expects them to be.
 
 # 🔗 Links
 Lorem ipsum dolor sit amet
@@ -47,3 +50,5 @@ Lorem ipsum dolor sit amet
 # 📝 Notes
 Commercial LLMs were used in this project for technical assistance and educational reasons.
 Created by [Hamza Darwish](https://github.com/hamzawasim835).
+
+Feel free to clone this repo or use it for educational purposes.
