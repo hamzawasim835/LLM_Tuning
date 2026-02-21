@@ -65,7 +65,7 @@ If you want to skip straight ahead into the inference pipeline, run the inferere
 2. Place the dataset in the expected directory or modify the path in the notebook.
 3. Run all cells to train and save the LoRA adapter.
 4. For Inference, place the inference script in the expected directory or modify the path in the notebook.
-5. Run the inference notebook which loads:
+5. Open Run the inference notebook, in Google Colab, which loads:
    - The base model (Llama-3.2-3B-Instruct, 4-bit)
    - The trained LoRA adapter
    - A streaming CLI interface
